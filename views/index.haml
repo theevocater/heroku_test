@@ -1,0 +1,31 @@
+!!! html5
+%html
+  %head
+    %link{:rel => "stylesheet",
+          :href => "http://yui.yahooapis.com/pure/0.2.0/pure-min.css" }
+    %link{:href => 'http://fonts.googleapis.com/css?family=Merriweather+Sans',
+          :rel => 'stylesheet',
+          :type => 'text/css'}
+    %link{:href => 'http://fonts.googleapis.com/css?family=Source+Code+Pro:500',
+          :rel => 'stylesheet',
+          :type => 'text/css'}
+    %link{:href => 'css/main.css',
+          :rel => 'stylesheet',
+          :type => 'text/css'}
+  %body
+    #layout.pure-g
+      .pure-u
+        %div#nav.pure-menu.pure-menu-open
+          %div.pure-menu-heading
+            I'm jake!
+          %ul
+            %li home
+            %li about
+      %div#content.pure-u-1
+        :markdown
+          # Hello, World!
+          ------
+          Jake is awesome
+
+          * also cool
+          * and stuff

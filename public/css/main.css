@@ -1,0 +1,63 @@
+#nav {
+  width: 200px;
+  margin-left: -200px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  overflow: auto;
+  text-align: center;
+  background-color: #44444f;
+  padding: 1em 0em;
+}
+
+.pure-menu-heading h1, .pure-menu-heading p {
+  font-size: 1em;
+  white-space: normal;
+  color: #999;
+}
+
+#nav, .pure-menu.pure-menu-open {
+  background-color: #444;
+  border: 0;
+}
+
+.pure-menu li {
+  padding: 2px;
+}
+
+#layout {
+  padding-left: 200px;
+  font-family:"Merriweather Sans",  "Courier New", "Courier", "sans";
+  color: #000000;
+}
+
+body {
+  background-color: #aaaaaf;
+}
+
+code {
+  font-family: "Source Code Pro", "monospace";
+  font-size: .9em;
+  color: #225522;
+}
+
+#content > h1 {
+  text-align: center;
+}
+#content > p {
+  padding: 0em 1em;
+}
+
+:link {
+  color: #000055;
+}
+
+:visited {
+  color: #111;
+}
+
+img {
+  text-align: center;
+  border: 1px solid #000;
+}
+
